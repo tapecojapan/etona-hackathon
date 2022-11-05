@@ -11,9 +11,12 @@
     "format": "prettier --write --ignore-path .gitignore \"src/**/*.{ts,tsx,js,jsx,json,css,scss}\""
   },
   "dependencies": {
+    "@metamask/providers": "^10.1.0",
+    "ethers": "^5.7.2",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "recoil": "^0.7.6"
   },
   "devDependencies": {
     "@types/node": "18.11.7",
