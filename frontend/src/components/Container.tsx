@@ -18,6 +18,7 @@ export const Container = ({ currentAccount }: Props) => {
   };
 
   const mintCharacterNFTAction = (characterId: number) => async () => {
+    console.log("gea");
     try {
       if (nft?.contract) {
         setMintingCharacter(true);
